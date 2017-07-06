@@ -17,10 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let realm = try! Realm()
-        //print (Realm.Configuration.defaultConfiguration.fileURL)
-        var SunriseTime: String = ""
-        var SunsetTime: String = ""
-        
+        print (Realm.Configuration.defaultConfiguration.fileURL)
         let url = "http://api.wunderground.com/api/0aaad10764e1a886/astronomy/q/Russia/Moscow.json"
 
         
